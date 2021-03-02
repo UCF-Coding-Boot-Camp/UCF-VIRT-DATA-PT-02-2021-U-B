@@ -1,0 +1,21 @@
+`pwd` will shows the current directory
+
+`cd Desktop` will change to the desktop directory
+
+`mkdir <folder_name>` will make a new directory/folder on the desktop.
+
+`cd <folder_name>` will move to the newly created folder
+
+`open .` on a Mac will open the current folder
+
+`explorer .` on a Windows will open the current folder
+
+`code .` will opens the current directory in VS Code
+
+`touch <file_name.py>` will create a Python file
+
+`ls` will show what is in the current directory
+
+`cd ..` will move us up a directory back to Desktop
+
+

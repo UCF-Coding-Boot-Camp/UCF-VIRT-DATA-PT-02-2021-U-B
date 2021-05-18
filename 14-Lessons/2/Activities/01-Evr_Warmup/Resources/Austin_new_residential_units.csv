@@ -1,0 +1,226 @@
+﻿Permit Type,Housing Units,Zip Code
+R- 101 Single Family Houses,2,0
+C- 104 Three & Four Family Bldgs,28,78613
+C- 105 Five or More Family Bldgs,"2,145",78613
+C- 105 Five or More Family Bldgs,950,78617
+R- 101 Single Family Houses,"1,489",78617
+R- 103 Two Family Bldgs,38,78617
+R- 101 Single Family Houses,1,78641
+R- 101 Single Family Houses,807,78652
+R- 101 Single Family Houses,898,78653
+C- 103 Two Family Bldgs,38,78660
+C- 105 Five or More Family Bldgs,"3,235",78660
+R- 101 Single Family Houses,"2,085",78660
+R- 103 Two Family Bldgs,172,78660
+C- 105 Five or More Family Bldgs,"4,533",78701
+C- 106 Mixed Use,"1,593",78701
+R- 101 Single Family Houses,3,78701
+R- 103 Two Family Bldgs,2,78701
+C- 101 Single Family Houses,49,78702
+C- 103 Two Family Bldgs,6,78702
+C- 104 Three & Four Family Bldgs,112,78702
+C- 105 Five or More Family Bldgs,"6,119",78702
+C- 106 Mixed Use,504,78702
+R- 101 Single Family Houses,"1,323",78702
+R- 102 Secondary Apartment,659,78702
+R- 103 Two Family Bldgs,372,78702
+C- 101 Single Family Houses,25,78703
+C- 103 Two Family Bldgs,10,78703
+C- 104 Three & Four Family Bldgs,37,78703
+C- 105 Five or More Family Bldgs,782,78703
+C- 106 Mixed Use,522,78703
+R- 101 Single Family Houses,703,78703
+R- 102 Secondary Apartment,77,78703
+R- 103 Two Family Bldgs,136,78703
+C- 101 Single Family Houses,130,78704
+C- 103 Two Family Bldgs,38,78704
+C- 104 Three & Four Family Bldgs,172,78704
+C- 105 Five or More Family Bldgs,"6,941",78704
+C- 106 Mixed Use,"1,261",78704
+R- 101 Single Family Houses,"1,432",78704
+R- 102 Secondary Apartment,311,78704
+R- 103 Two Family Bldgs,738,78704
+C- 101 Single Family Houses,10,78705
+C- 103 Two Family Bldgs,4,78705
+C- 104 Three & Four Family Bldgs,204,78705
+C- 105 Five or More Family Bldgs,"7,710",78705
+C- 106 Mixed Use,388,78705
+R- 101 Single Family Houses,105,78705
+R- 102 Secondary Apartment,37,78705
+R- 103 Two Family Bldgs,70,78705
+C- 103 Two Family Bldgs,24,78717
+C- 104 Three & Four Family Bldgs,321,78717
+C- 105 Five or More Family Bldgs,"4,540",78717
+R- 101 Single Family Houses,"3,395",78717
+C- 105 Five or More Family Bldgs,643,78721
+C- 106 Mixed Use,14,78721
+R- 101 Single Family Houses,586,78721
+R- 102 Secondary Apartment,222,78721
+R- 103 Two Family Bldgs,292,78721
+C- 105 Five or More Family Bldgs,905,78722
+C- 106 Mixed Use,24,78722
+R- 101 Single Family Houses,102,78722
+R- 102 Secondary Apartment,85,78722
+R- 103 Two Family Bldgs,62,78722
+C- 104 Three & Four Family Bldgs,40,78723
+C- 105 Five or More Family Bldgs,"3,345",78723
+C- 106 Mixed Use,45,78723
+R- 101 Single Family Houses,"2,638",78723
+R- 102 Secondary Apartment,63,78723
+R- 103 Two Family Bldgs,164,78723
+C- 105 Five or More Family Bldgs,"1,540",78724
+R- 101 Single Family Houses,"1,961",78724
+R- 102 Secondary Apartment,2,78724
+R- 103 Two Family Bldgs,2,78724
+C- 105 Five or More Family Bldgs,300,78725
+R- 101 Single Family Houses,259,78725
+C- 101 Single Family Houses,95,78726
+C- 103 Two Family Bldgs,77,78726
+C- 104 Three & Four Family Bldgs,138,78726
+C- 105 Five or More Family Bldgs,258,78726
+R- 101 Single Family Houses,420,78726
+R- 103 Two Family Bldgs,2,78726
+C- 101 Single Family Houses,1,78727
+C- 103 Two Family Bldgs,40,78727
+C- 104 Three & Four Family Bldgs,111,78727
+C- 105 Five or More Family Bldgs,"1,497",78727
+R- 101 Single Family Houses,192,78727
+R- 103 Two Family Bldgs,14,78727
+C- 105 Five or More Family Bldgs,242,78728
+C- 104 Three & Four Family Bldgs,75,78729
+C- 105 Five or More Family Bldgs,381,78729
+R- 101 Single Family Houses,183,78729
+R- 103 Two Family Bldgs,8,78729
+C- 101 Single Family Houses,23,78730
+C- 103 Two Family Bldgs,36,78730
+C- 104 Three & Four Family Bldgs,44,78730
+C- 105 Five or More Family Bldgs,370,78730
+R- 101 Single Family Houses,279,78730
+R- 102 Secondary Apartment,1,78730
+R- 103 Two Family Bldgs,2,78730
+C- 103 Two Family Bldgs,8,78731
+C- 104 Three & Four Family Bldgs,146,78731
+C- 105 Five or More Family Bldgs,"1,242",78731
+R- 101 Single Family Houses,529,78731
+R- 102 Secondary Apartment,7,78731
+R- 103 Two Family Bldgs,76,78731
+R- 101 Single Family Houses,312,78732
+R- 102 Secondary Apartment,1,78732
+R- 101 Single Family Houses,232,78733
+R- 101 Single Family Houses,24,78734
+C- 101 Single Family Houses,117,78735
+C- 104 Three & Four Family Bldgs,84,78735
+C- 105 Five or More Family Bldgs,"2,088",78735
+R- 101 Single Family Houses,532,78735
+R- 103 Two Family Bldgs,72,78735
+C- 101 Single Family Houses,1,78736
+C- 104 Three & Four Family Bldgs,30,78736
+C- 105 Five or More Family Bldgs,"1,263",78736
+R- 101 Single Family Houses,223,78736
+R- 103 Two Family Bldgs,8,78736
+R- 101 Single Family Houses,3,78737
+C- 101 Single Family Houses,1,78739
+C- 105 Five or More Family Bldgs,151,78739
+R- 101 Single Family Houses,"2,326",78739
+R- 102 Secondary Apartment,1,78739
+C- 101 Single Family Houses,197,78741
+C- 103 Two Family Bldgs,12,78741
+C- 104 Three & Four Family Bldgs,495,78741
+C- 105 Five or More Family Bldgs,"6,669",78741
+C- 106 Mixed Use,510,78741
+R- 101 Single Family Houses,"1,234",78741
+R- 102 Secondary Apartment,91,78741
+R- 103 Two Family Bldgs,70,78741
+R- 101 Single Family Houses,11,78742
+R- 102 Secondary Apartment,2,78742
+C- 101 Single Family Houses,7,78744
+C- 105 Five or More Family Bldgs,"3,012",78744
+R- 101 Single Family Houses,"3,602",78744
+R- 102 Secondary Apartment,3,78744
+R- 103 Two Family Bldgs,39,78744
+C- 101 Single Family Houses,389,78745
+C- 103 Two Family Bldgs,4,78745
+C- 104 Three & Four Family Bldgs,123,78745
+C- 105 Five or More Family Bldgs,"4,772",78745
+C- 106 Mixed Use,70,78745
+R- 101 Single Family Houses,"1,098",78745
+R- 102 Secondary Apartment,143,78745
+R- 103 Two Family Bldgs,286,78745
+C- 101 Single Family Houses,50,78746
+C- 104 Three & Four Family Bldgs,18,78746
+C- 105 Five or More Family Bldgs,356,78746
+C- 106 Mixed Use,3,78746
+R- 101 Single Family Houses,337,78746
+R- 102 Secondary Apartment,5,78746
+R- 103 Two Family Bldgs,36,78746
+C- 104 Three & Four Family Bldgs,32,78747
+C- 105 Five or More Family Bldgs,"1,867",78747
+R- 101 Single Family Houses,"3,373",78747
+R- 102 Secondary Apartment,1,78747
+R- 103 Two Family Bldgs,166,78747
+C- 101 Single Family Houses,572,78748
+C- 103 Two Family Bldgs,38,78748
+C- 104 Three & Four Family Bldgs,309,78748
+C- 105 Five or More Family Bldgs,"5,963",78748
+C- 106 Mixed Use,2,78748
+R- 101 Single Family Houses,"3,700",78748
+R- 102 Secondary Apartment,1,78748
+R- 103 Two Family Bldgs,100,78748
+C- 104 Three & Four Family Bldgs,6,78749
+C- 105 Five or More Family Bldgs,"1,391",78749
+R- 101 Single Family Houses,134,78749
+R- 102 Secondary Apartment,1,78749
+R- 103 Two Family Bldgs,26,78749
+C- 101 Single Family Houses,142,78750
+C- 103 Two Family Bldgs,194,78750
+C- 104 Three & Four Family Bldgs,8,78750
+C- 105 Five or More Family Bldgs,635,78750
+R- 101 Single Family Houses,137,78750
+R- 102 Secondary Apartment,1,78750
+R- 103 Two Family Bldgs,76,78750
+C- 104 Three & Four Family Bldgs,4,78751
+C- 105 Five or More Family Bldgs,"1,835",78751
+C- 106 Mixed Use,72,78751
+R- 101 Single Family Houses,248,78751
+R- 102 Secondary Apartment,173,78751
+R- 103 Two Family Bldgs,164,78751
+C- 103 Two Family Bldgs,4,78752
+C- 104 Three & Four Family Bldgs,8,78752
+C- 105 Five or More Family Bldgs,"2,115",78752
+R- 101 Single Family Houses,139,78752
+R- 102 Secondary Apartment,106,78752
+R- 103 Two Family Bldgs,126,78752
+C- 103 Two Family Bldgs,25,78753
+C- 104 Three & Four Family Bldgs,51,78753
+C- 105 Five or More Family Bldgs,"5,190",78753
+R- 101 Single Family Houses,651,78753
+R- 102 Secondary Apartment,7,78753
+R- 103 Two Family Bldgs,50,78753
+C- 104 Three & Four Family Bldgs,24,78754
+C- 105 Five or More Family Bldgs,"3,332",78754
+R- 101 Single Family Houses,"3,208",78754
+C- 101 Single Family Houses,23,78756
+C- 104 Three & Four Family Bldgs,,78756
+C- 105 Five or More Family Bldgs,757,78756
+C- 106 Mixed Use,89,78756
+R- 101 Single Family Houses,239,78756
+R- 102 Secondary Apartment,62,78756
+R- 103 Two Family Bldgs,152,78756
+C- 105 Five or More Family Bldgs,799,78757
+C- 106 Mixed Use,344,78757
+R- 101 Single Family Houses,716,78757
+R- 102 Secondary Apartment,204,78757
+R- 103 Two Family Bldgs,226,78757
+C- 101 Single Family Houses,22,78758
+C- 103 Two Family Bldgs,4,78758
+C- 105 Five or More Family Bldgs,"4,931",78758
+C- 106 Mixed Use,281,78758
+R- 101 Single Family Houses,128,78758
+R- 102 Secondary Apartment,4,78758
+R- 103 Two Family Bldgs,12,78758
+C- 101 Single Family Houses,3,78759
+C- 105 Five or More Family Bldgs,"1,168",78759
+R- 101 Single Family Houses,168,78759
+R- 102 Secondary Apartment,4,78759
+R- 103 Two Family Bldgs,12,78759
+R- 102 Secondary Apartment,1,

@@ -1,0 +1,1 @@
+hair <- read.csv(file="../Resources/hair.csv")

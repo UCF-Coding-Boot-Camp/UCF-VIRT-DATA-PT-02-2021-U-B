@@ -1,0 +1,91 @@
+---
+title: "Back to School"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Dependency
+```{r}
+library(tidyverse)
+```
+### Read CSV file
+```{r}
+students <-read_csv("students.csv")
+```
+### Preview tibble
+```{r}
+head(students)
+```
+
+### A list of all schools
+```{r}
+# unique(dataset, variable) displays unique elements from that column
+unique(students$school_name)
+```
+
+### Calculate the total count of schools
+```{r}
+school_count <- unique(students$school_name)
+# Use length() to identify the number of schools
+length(school_count)
+paste("There are", length(school_count), "schools")
+```
+
+### Calculate the total number of students
+```{r}
+# nrow() returns the number of rows
+student_count <-  nrow(students)
+paste("There are a total of", student_count, "students.")
+```
+
+### Calculate the average reading and math scores
+```{r}
+mean_reading_score <- summarize(students, mean(reading_score))
+paste("The average reading score is", mean_reading_score)
+
+mean_math_score <- summarize(students, mean(math_score))
+paste("The average math score is", mean_math_score)
+```
+### Calculate the percentage of students with passing reading scores
+### equal to or greater than 70%.
+```{r}
+passing_reading <- filter(students, reading_score >= 70)
+passing_reading_count <- nrow(passing_reading)
+percentage_passing_reading <- passing_reading_count*100 / student_count
+percentage_passing_reading <- round(percentage_passing_reading,2)
+
+paste(percentage_passing_reading, "% of the students have passing reading scores.")
+```
+### Calculate the percentage of students with passing math scores,
+### equal to or greater than 70%.
+```{r}
+passing_math <- filter(students, math_score >= 70)
+passing_math_count <- nrow(passing_math)
+percentage_passing_math <- passing_math_count*100 / student_count
+percentage_passing_math <- round(percentage_passing_math, 2)
+
+paste(percentage_passing_math, "% of the students have passing math scores.")
+```
+### Calculate the percentage of overall passing equal to or greater than 70%.
+```{r}
+overall_passing <- filter(students, math_score >= 70 & reading_score >= 70)
+overall_passing_count <- nrow(overall_passing)
+percentage_passing_overall <- overall_passing_count *100 / student_count
+percentage_passing_overall <- round(percentage_passing_overall , 2)
+
+paste(percentage_passing_overall, "% of the students have passing math and reading scores.")
+```
+### Calculate the average math and reading scores by school
+```{r}
+school_grouping <- group_by(students, school_name)
+summarize(school_grouping, avg.reading=mean(reading_score), avg.math = mean(math_score))
+```
+
+### Calculate the average math and reading scores by grade level at each school
+```{r}
+grade_grouping <- group_by(students, school_name, grade)
+summarize(grade_grouping, avg.reading=mean(reading_score), avg.math=mean(math_score))
+```

@@ -1,0 +1,101 @@
+---
+title: "tibbles"
+output: html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load dependency and sample data set
+```{r}
+library(tidyverse)
+data(diamonds, package='ggplot2')
+```
+
+### Calculate the number of rows in the tibble
+```{r}
+nrow(diamonds)
+```
+
+### Get the first 10 rows of the diamond dataset 
+```{r}
+head(diamonds, 10)
+```
+
+### Get the last 10 rows of the diamond dataset 
+```{r}
+tail(diamonds, 10)
+```
+
+### Select rows 1 through 7
+```{r}
+slice(diamonds, 1:7)
+```
+
+### Select row 3
+```{r}
+slice(diamonds, 3)
+```
+
+### Select rows 1 and 7
+```{r}
+slice(diamonds, c(1,7))
+```
+
+### Select columns. First argument is the data set
+```{r}
+select(diamonds, carat, price)
+```
+
+### Filter data
+```{r}
+filter(diamonds, cut=='Ideal')
+```
+
+### Filter data by multiple criteria
+```{r}
+filter(diamonds, (cut=='Ideal' & price > 500))
+```
+
+### Operate over a column, temporarily add a new column
+```{r}
+total_volume <- mutate(diamonds, x * y * z)
+total_volume
+```
+
+### Name the new column, save the results to another tibble
+```{r}
+# In R, variables can contain periods
+total.volume2 <- mutate(diamonds, total.volume=(x*y*z))
+total.volume2
+```
+
+### Display the mean of a column
+```{r}
+summarize(diamonds, mean(price))
+```
+
+### Group diamonds by cut
+```{r}
+cut <- group_by(diamonds, cut)
+summarize(cut, mean(price), sum(price))
+```
+
+### A summary, grouped by cut, displaying average price and count.
+```{r}
+summarize(cut, avg=mean(price),number=n())
+```
+
+### Group by multiple columns
+```{r}
+cut2 <- group_by(diamonds, cut, color)
+cut2_summary <- summarize(cut2, mean(price))
+cut2_summary
+```
+
+### Count the number of diamonds by cut
+```{r}
+count(diamonds, cut)
+```
+
